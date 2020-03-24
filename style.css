@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "adelle_sansregular", sans-serif;
+}
+
+span {
+	
+	background-color: rgb(255, 255, 255) !important;
+}
+
+.testwrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.s1 .testwrapper {
+	background-image: url("./img/top.jpg");
+	background-size: cover;
+	background-position: left;
+	background-position: 0px;
+}
+
+.s1 p {
+	bottom: 5%;
+}
+
+.s1 p, .s2 p , .s3 p, .s4 p{
+	position: relative;	
+	width: 80%;
+	left: 10%;
+	bottom: 0px;
+	color: white;
+	background-color: #0f252ea6;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 7px;
+}
+.section p {
+	position: relative;	
+	width: 80%;
+	left: 10%;
+	bottom: 0px;
+	color: white;
+	background-color: #0f252ea6;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 7px;
+	text-align: justify;
+}
+
+
+
+.section h1 {
+	font-size: 40px;
+	position: absolute;
+	top: 7%;
+	left: 10%;
+	/* transform: translate(-50%, -20%); */
+	background: linear-gradient(to left, #cacaca, #1f8fbb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+.s1 h1 {
+	top: 15%;
+}
+
+.s2  {
+  background: linear-gradient(to left top, rgb(102, 81, 199), white);
+}
+
+.imgwrapp {
+
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+	/* height: 100vh;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto; */
+}
+
+.imgwrapp img {
+	height: 100%;
+}
+
+
+
+#img2 {
+	height: 100%;
+	object-fit: cover;
+	object-position: -300px;
+}
+
+
+
+
+.s2 h1 {
+	position: absolute;
+	font-size: 49px;
+	background: linear-gradient(to left, #2424ac, #088383);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	top: 5%;
+	line-height: 46px;
+}
+
+
+
+#img3 {
+	height: 100%;
+	
+	object-position: -400px;
+	
+}
+
+.s3 h1 {
+	background: linear-gradient(to left, #ffffff, #9af0f0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#img4 {
+	height: 100%;
+	
+	object-position: -300px;
+	
+}
+
+.s4 h1 {
+	font-size: 64px;
+	background: linear-gradient(to left, #b37606, #502b01);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.s4 p {
+	font-size: 20px;
+	line-height: 18px;
+}
+
+.description {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+}
+
+
